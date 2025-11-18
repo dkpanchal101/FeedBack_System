@@ -5,7 +5,7 @@ export default function StatsCards({ stats }) {
     { title: "Total Feedbacks", value: stats.total ?? 0 },
     { title: "Average Rating", value: stats.avgRating ?? 0 },
     { title: "Positive (4+)", value: stats.positive ?? 0 },
-    { title: "Negative (<3)", value: stats.negative ?? 0 }
+    { title: "Negative (<=3)", value: stats.negative ?? 0 }
   ];
 
   return (
